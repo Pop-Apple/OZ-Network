@@ -19,7 +19,7 @@ using HTML, CSS, and Javascript.
 
 ## OZ
 
-Click [here](https://pop-apple.github.io/OZ-Online/)
+Click [here](https://pop-apple.github.io/OZ-NetWork/)
 
 ## License
 
