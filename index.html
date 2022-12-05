@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <title>OZ Login</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+
+        <!--スマホでのDPI調整-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    </head>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon.ico">
+    <script src="script.js"></script>
+
+    <body align="center"　oncontextmenu="return false;">
+
+    <div class="MainTab">
+
+        <!--ロード時に音声の再生-->
+        <audio autoplay src="./SoundEffect/OZ_operating.mp"></audio>
+
+        <audio id="btn_audio">
+            <source src="./SoundEffect/OZ_operating_Max.mp3" type="audio/mp3">
+        </audio>
+
+        <p>
+            <img class="Logo" src="./Images/Welcome.png" alt="386x646" width="170" height="200"　oncontextmenu="return false;"/>
+        </p>
+
+        <h1>Welcome</h1>
+
+        <br>
+        <br>
+
+        <input maxlength="12"  class="TextBox" size="20" placeholder="username" type="text">
+
+        <br>
+        <br>
+
+        <input maxlength="12" style="-webkit-text-security:disc;" class="TextBox" size="30" placeholder="password" type="text">
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <button href="#" class="LoginButton" onclick="Login()">login</button>
+
+        <br>
+        <br>
+        <br>
+
+        <button href="#" class="PlayButton" onclick="PlayAudio()">Play</button>
+
+        <br>
+        <br>
+        <br>
+
+        <hr width="280px">
+
+        <p class="CopyrightLable" onclick="">Copyright © Pop Apple 2022</p>
+
+    </div>
+
+        <script>
+            
+            //音声の関数
+            function PlayAudio() {
+                document.getElementById('btn_audio').currentTime = 0;
+                document.getElementById('btn_audio').play(); 
+            }
+            //ドメイン
+            function Login() {
+                window.location.href = '#'
+            }
+            
+        </script>
+    </body>
+</html>
