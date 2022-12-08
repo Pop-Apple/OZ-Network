@@ -76,6 +76,7 @@ img {
     animation-name:zoomIn;
     animation-duration:2s;
     animation-fill-mode:forwards;
+    pointer-events: none;
     opacity:0;
     }
     
