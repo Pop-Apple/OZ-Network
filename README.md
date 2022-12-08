@@ -8,8 +8,6 @@ I created this project as one of my
 It is not equipped with functions such as login, account creation, etc.  
 I hope you will visit the site as a demonstration.  
 
----
-
 ## Whati is **OZ**
 
 It is a virtual world on the Internet that appears in the movie [Summer Wars](https://s-wars.jp/)  
