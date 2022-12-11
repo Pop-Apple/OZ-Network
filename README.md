@@ -21,4 +21,4 @@ Click [here](https://pop-apple.github.io/OZ-Network/)
 
 ## License
 
-Released under [Apatch](https://github.com/Pop-Apple/OZ-Network/blob/master/LICENSE) LICENSE
+Released under [Apache-2.0](https://github.com/Pop-Apple/OZ-Network/blob/master/LICENSE) LICENSE
